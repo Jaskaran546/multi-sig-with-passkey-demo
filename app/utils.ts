@@ -19,11 +19,11 @@ import { ENTRYPOINT_ADDRESS_V07 } from "permissionless";
 import { WeightedSigner } from "@zerodev/weighted-validator";
 
 export const PASSKEY_URL =
-  "https://passkeys.zerodev.app/api/v3/efbc1add-1c14-476e-b3f1-206db80e673c";
+  "https://passkeys.zerodev.app/api/v3/cd5209db-ce82-4405-87a7-3447aae3743f";
 export const BUNDLER_URL =
-  "https://rpc.zerodev.app/api/v2/bundler/efbc1add-1c14-476e-b3f1-206db80e673c";
+  "https://rpc.zerodev.app/api/v2/bundler/cd5209db-ce82-4405-87a7-3447aae3743f";
 export const PAYMASTER_URL =
-  "https://rpc.zerodev.app/api/v2/paymaster/efbc1add-1c14-476e-b3f1-206db80e673c";
+  "https://rpc.zerodev.app/api/v2/paymaster/cd5209db-ce82-4405-87a7-3447aae3743f";
 export const entryPoint = ENTRYPOINT_ADDRESS_V07;
 export const chain = sepolia;
 export const publicClient = createPublicClient({
